@@ -57,10 +57,6 @@ export default function RootLayout() {
           }}
         >
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="tools/tackle-matcher" options={{ title: "Tackle Matcher" }} />
-          <Stack.Screen name="tools/lure-selector" options={{ title: "Lure & Jig Selector" }} />
-          <Stack.Screen name="tools/hook-matcher" options={{ title: "Hook Matcher" }} />
-          <Stack.Screen name="tools/read-my-spot" options={{ title: "Read My Fishing Spot" }} />
         </Stack>
       </LanguageProvider>
     </ThemeProvider>
