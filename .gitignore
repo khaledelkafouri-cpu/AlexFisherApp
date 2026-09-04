@@ -29,6 +29,8 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
+# AppleDouble sidecar files (created on exFAT/network volumes)
+._*
 
 # local env files
 .env*.local

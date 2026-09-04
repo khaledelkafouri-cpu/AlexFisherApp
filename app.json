@@ -1,21 +1,22 @@
 {
   "expo": {
-    "name": "AlexFisherApp",
-    "slug": "AlexFisherApp",
+    "name": "AlexFisher",
+    "slug": "alexfisher",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "alexfisherapp",
+    "scheme": "alexfisher",
     "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0b3d5c",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alexfisher.app"
     },
     "android": {
+      "package": "com.alexfisher.app",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#0b3d5c",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
       },
       "predictiveBackGestureEnabled": false
     },
@@ -31,7 +32,7 @@
         {
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0b3d5c"
         }
       ]
     ],
